@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/but4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gmh1"
+        android:layout_width="match_parent"
+        android:background="@drawable/but3"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="HOME"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="if government help,country progress or
+         not help then not acheive what have to achieve. "
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:layout_below="@+id/gmh1"
+        android:layout_marginTop="40dp"
+        android:id="@+id/gmh2"/>
+
+    <Button
+        android:id="@+id/gmh3"
+        android:layout_width="match_parent"
+        android:background="@drawable/but4"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gmh2"
+        android:layout_margin="10dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="problem viewer"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scheme"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/but4"
+        android:padding="12dp"
+        android:layout_below="@+id/gmh3"
+        android:layout_marginTop="40dp"
+        android:id="@+id/gmh4"/>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/but5"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".header2"
+    android:layout_height="230dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/waste_management_system"
+        android:textSize="21sp"
+        android:layout_margin="20dp"
+        android:padding="17dp"
+        android:textColor="@color/white"
+        android:background="#3e84bc"
+        />
+
+</LinearLayout>
